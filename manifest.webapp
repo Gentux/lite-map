@@ -1,6 +1,6 @@
 {
-  "name": "OfflineMap",
-  "description": "A simple map that can be used offline",
+  "name": "Lite Map",
+  "description": "A simple and lightweight map usable offline",
   "launch_path": "/index.html",
   "icons": {
     "16": "/icons/icon16x16.png",
