@@ -33,7 +33,6 @@ window.addEventListener('load', function() {
     maximumAge: 60000,
     timeout: 8000
   }).on('locationfound', function(e) {
-    console.log('localisation utilisateur réussie');
     var marker = L.marker([e.latlng.lat, e.latlng.lng]).bindPopup(
         '<span data-l10n-id="locate_ok">Vous êtes par ici&nbsp;&nbsp;</span>');
     map.addLayer(marker);
